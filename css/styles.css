@@ -662,6 +662,9 @@ padding-bottom: 94px;
 
 .project-titles {
   padding: 20px 24px;
+  border: 1px solid var(--button-color);
+  padding: 20px 24px;
+  border-top: 0;
 }
 .project {
   text-decoration: none;
@@ -687,7 +690,6 @@ gap: 30px;
 
 .project-element {
 width: 370px;
-border: 1px solid var(--button-color);
 }
 .project-element:nth-child(3n) {
   margin-right: 0;
