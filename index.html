@@ -20,9 +20,15 @@
         <a class="logo" href="./index.html">Web<span class="accent-header">Studio</span></a>
           <nav class="site-nav">    
             <ul class="nav">
-            <li class="item-nav link"><a href="./index.html" class="link curent">Студія</a></li>
-            <li class="item-nav link"><a href="./portfolio.html" class="link">Портфоліо</a></li>
-            <li class="item-nav link"><a href="./contact.html" class="link">Контакт</a></li>
+            <li class="item-nav link"><a href="./index.html" class="link curent">Студія</a>
+              <div class="nav-bottom"><span class="link-bottom"></span></div>
+            </li>
+            <li class="item-nav link"><a href="./portfolio.html" class="link">Портфоліо</a>
+              <div class="nav-bottom"><span class="link-bottom"></span></div>
+            </li>
+            <li class="item-nav link"><a href="./contact.html" class="link">Контакт</a>
+              <div class="nav-bottom"><span class="link-bottom"></span></div>
+            </li>
             </ul>
           </nav>
             <ul class="auth-nav">
@@ -48,7 +54,7 @@
         <div class="container main-wrap">
           <h1 class="main-title">Ефективні рішення для вашого бізнесу</h1>
         <!--main button-->
-          <button type="button" class="main-button">
+          <button data-modal-open type="button" class="main-button">
             Замовити послугу
           </button>
         </div>
@@ -82,20 +88,32 @@
         <div class="container main-activity">
           <h2 class="section-title">Чим ми займаємося</h2>
             <ul class="activity">             
-            <li class="activity-item"><div>
-              <img src="./images/picture-1.jpg" 
-              alt="image computer" width="370" height="294"/>
-              </div>
-            </li>
-            <li class="activity-item"><div>
-              <img src="./images/picture-2.jpg"
-              alt="image smartphone" width="370" height="294"/>
-              </div>
-            </li>
-            <li class="activity-item"><div>
-              <img src="./images/picture-3.jpg"
-              alt="image tablet" width="370" height="294"/>
+            <li class="activity-item">
+              <div>
+                <img src="./images/picture-1.jpg" 
+                alt="image computer" width="370" height="294"/>
+                <div class="activity-wrap">
+                  <p class="activity-top-text">Десктопні додатки</p>
                 </div>
+              </div>
+            </li>
+            <li class="activity-item">
+              <div>
+                <img src="./images/picture-2.jpg" 
+                alt="image computer" width="370" height="294"/>
+                <div class="activity-wrap">
+                  <p class="activity-top-text">Мобільні додатки</p>
+                </div>
+              </div>
+            </li>
+            <li class="activity-item">
+              <div>
+                <img src="./images/picture-3.jpg" 
+                alt="image computer" width="370" height="294"/>
+                <div class="activity-wrap">
+                  <p class="activity-top-text">Дизайнерські рішення</p>
+                </div>
+              </div>
             </li>
             </ul>
         </div> 
@@ -387,5 +405,15 @@
         </div>
       </div>
     </footer> 
+      <div data-modal class="backdrop is-hidden">
+      <div class="modal">
+        <button data-modal-close type="button" class="modal-close">
+          <svg class="modal-item">
+            <use class="item-modal" href="./images/icons.svg#icon-close.svg" width="11px" height="11px"></use>
+          </svg>
+        </button>
+      </div>
+      </div>
+      <script src="./js/modal.js"></script>
 </body>
 </html>

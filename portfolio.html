@@ -13,32 +13,38 @@
 </head>
 <body>
   <!--header-->  
-    <header class="header">
-      <div class="container header-wrap">
-        <a class="logo" href="./index.html">Web<span class="accent-header">Studio</span></a>
-          <nav class="site-nav">    
-            <ul class="nav">
-            <li class="item-nav link"><a href="./index.html" class="link curent">Студія</a></li>
-            <li class="item-nav link"><a href="./portfolio.html" class="link">Портфоліо</a></li>
-            <li class="item-nav link"><a href="./contact.html" class="link">Контакт</a></li>
-            </ul>
-          </nav>
-            <ul class="auth-nav">
-              <li class="item-contact mail">
-                <a href="mailto:info@devstudio.com" class="contact link-mail">
-                  <svg class="envelope">
-                    <use class="env" href="./images/icons.svg#envelope" width="16px" height="12px"></use>
-                  </svg>info@devstudio.com</a>
-              </li>
-              <li class="item-contact tel">
-                <a href="tel:+380961111111" class="contact link-tel">
-                  <svg class="smartphone">
-                    <use class="smartph" href="./images/icons.svg#smartphone" width="10px" height="16px"></use>
-                  </svg>+38 096 111 11 11</a>
-              </li>
-            </ul>
-      </div>
-    </header>
+  <header class="header">
+    <div class="container header-wrap">
+      <a class="logo" href="./index.html">Web<span class="accent-header">Studio</span></a>
+        <nav class="site-nav">    
+          <ul class="nav">
+          <li class="item-nav link"><a href="./index.html" class="link curent">Студія</a>
+            <div class="nav-bottom"><span class="link-bottom"></span></div>
+          </li>
+          <li class="item-nav link"><a href="./portfolio.html" class="link">Портфоліо</a>
+            <div class="nav-bottom"><span class="link-bottom"></span></div>
+          </li>
+          <li class="item-nav link"><a href="./contact.html" class="link">Контакт</a>
+            <div class="nav-bottom"><span class="link-bottom"></span></div>
+          </li>
+          </ul>
+        </nav>
+          <ul class="auth-nav">
+            <li class="item-contact mail">
+              <a href="mailto:info@devstudio.com" class="contact link-mail">
+                <svg class="envelope">
+                  <use class="env" href="./images/icons.svg#envelope" width="16px" height="12px"></use>
+                </svg>info@devstudio.com</a>
+            </li>
+            <li class="item-contact tel">
+              <a href="tel:+380961111111" class="contact link-tel">
+                <svg class="smartphone">
+                  <use class="smartph" href="./images/icons.svg#smartphone" width="10px" height="16px"></use>
+                </svg>+38 096 111 11 11</a>
+            </li>
+          </ul>
+    </div>
+  </header>
   <!--main-->
   <main>
     <section class="main-portfolio">
@@ -55,91 +61,128 @@
   <!--projects-->
       <ul class="main-project">
           <li class="project-element">
-              <a class="project" href="">
+              <div class="project-wrap">
+                <a class="project" href="">
                 <img
                 class="project-image"
                 src="./images/project-1.jpg"
                 alt="image portfolio" width="370"/>
-                <div class="project-titles"><h3 class="project-name">Технокряко</h3>   
-                  <p class="project-description">Веб-сайт</p>
-                </div></a>
+                <p class="project-top-text">
+                  Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
+                </p>
+              </div>
+              <div class="project-titles"><h3 class="project-name">Технокряко</h3>   
+                <p class="project-description">Веб-сайт</p>
+              </div></a>
             </li>
             <li class="project-element">
+              <div class="project-wrap">
               <a class="project" href="">
                 <img
                 class="project-image"
                 src="./images/project-2.jpg"
                 alt="image portfolio" width="370"/>
+                <p class="project-top">
+                </p>
+              </div>
                 <div class="project-titles"><h3 class="project-name">Постер New Orlean vs Golden Star</h3>
                 <p class="project-description">Дизайн</p>
                 </div></a>
             </li> 
             <li class="project-element">
+              <div class="project-wrap">
               <a class="project" href="">
               <img
               class="project-image"
               src="./images/project-3.jpg"
               alt="image portfolio" width="370"/>
+              <p class="project-top">  
+              </p>
+            </div>
               <div class="project-titles"><h3 class="project-name">Ресторан Seafood</h3>
               <p class="project-description">Додаток</p>
               </div></a>
             </li>
             <li class="project-element">
+              <div class="project-wrap">
               <a class="project" href="">
                 <img
                 class="project-image"
                 src="./images/project-4.jpg"
                 alt="image portfolio" width="370"/>
+                <p class="project-top">
+                </p>
+              </div>
                 <div class="project-titles"><h3 class="project-name">Проєкт Prime</h3>
                 <p class="project-description">Маркетинг</p>
                 </div></a>
             </li>
             <li class="project-element">
+              <div class="project-wrap">
               <a class="project" href="">
               <img
               class="project-image"
               src="./images/project-5.jpg"
-              alt="image portfolio" width="370"/> 
+              alt="image portfolio" width="370"/>
+              <p class="project-top"> 
+              </p>
+            </div> 
               <div class="project-titles"><h3 class="project-name">Проєкт Boxes</h3>   
                 <p class="project-description">Додаток</p>
                 </div></a>
           </li>
           <li class="project-element">
+            <div class="project-wrap">
               <a class="project" href="">
               <img
               class="project-image"
               src="./images/project-6.jpg"
               alt="image portfolio" width="370"/>
+              <p class="project-top">  
+              </p>
+            </div>
               <div class="project-titles"><h3 class="project-name">Inspiration has no Borders</h3>
               <p class="project-description">Веб-сайт</p>
               </div></a>
           </li> 
           <li class="project-element">
+            <div class="project-wrap">
             <a class="project" href="">
             <img
             class="project-image"
             src="./images/project-7.jpg"
               alt="image portfolio" width="370"/>
+              <p class="project-top">  
+              </p>
+            </div>
             <div class="project-titles"><h3 class="project-name">Видання Limited Edition</h3>
             <p class="project-description">Дизайн</p>
             </div></a>
           </li>
           <li class="project-element">
+            <div class="project-wrap">
               <a class="project" href="">
               <img
               class="project-image"
               src="./images/project-8.jpg"
               alt="image portfolio" width="370"/>
+              <p class="project-top">  
+              </p>
+            </div>
               <div class="project-titles"><h3 class="project-name">Проєкт LAB</h3>
               <p class="project-description">Маркетинг</p>
               </div></a>
           </li>
           <li class="project-element">
+            <div class="project-wrap">
             <a class="project" href="">
             <img
               class="project-image"
               src="./images/project-9.jpg"
               alt="image portfolio" width="370"/>
+              <p class="project-top">  
+              </p>
+            </div>
               <div class="project-titles"><h3 class="project-name">Growing Business</h3>
               <p class="project-description">Додаток</p>
               </div></a>
