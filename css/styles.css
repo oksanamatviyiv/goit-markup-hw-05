@@ -821,12 +821,12 @@ width: 370px;
   transform: translate(-50%, -50%) scaleY(0) rotate(-180deg);
 }
 
+
 .modal {
   width: 528px;
   min-height: 581px;
   background: var(--primary-white-color);
   border-radius: 4px;
-  
   position: absolute;
   top: 50%;
   left: 50%;
@@ -841,19 +841,22 @@ width: 370px;
   height: 30px;
   border-radius: 50%;
   background-size: 11px;
-  background-color: var(--primary-white-color);
-  fill: #000000;
   background-repeat: no-repeat;
   border-color: rgba(0, 0, 0, 0.1);
+  fill: #000000;
+  background-image: url(../images/close.svg);
+  background-position: center;
+  background-color: var(--primary-white-color);
   position: absolute;
   top: 8px;
   right: 8px;
 }
 
+
 .modal-close:hover,
 .modal-close:focus {
   fill: var(--primary-white-color);
-  background-color: #000000;
+  background-color:rgba(0, 0, 0, 0.1);
 }
 .is-hidden {
   opacity: 0;
