@@ -111,7 +111,7 @@ footer {
 }
   /* Site nav */
 .site-nav {
-  margin-left: 93px;
+  margin-left: 91px;
 }
 .nav, .item-nav {
   display: flex;
@@ -170,7 +170,7 @@ border-radius: 4px;
   align-items: center;
   padding-top: 32px;  
   margin-bottom: 0;
-  gap: 30px;
+  gap: 52px;
 }
 
 
@@ -824,7 +824,6 @@ padding-bottom: 94px;
   height: 110px;
   padding: 20px 24px;
   border: 1px solid var(--button-color);
-  border-top: hidden;
 }
 
 
